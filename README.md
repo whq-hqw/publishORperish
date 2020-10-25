@@ -34,6 +34,8 @@ This script help you to extract the common citing works from multiple list of cs
 As sometimes `/`, `-`, *white space* or *case sensitive* may cause the paper's name be not exactly same, that's why I use Levenshtein distance to calculate distance of 2 paper title, if distance of 2 paper is above `--leven_thres`, they will not be considered as same paper.
 In the second case, console output will be:
 
+    python find_common_citation.py --names deepsets pointnet --leven_thres 10
+    
     Levenshtein distance: 7
     Pointcnn: Convolution on x-transformed points
     ==> PointCNN: Convolution On -Transformed Points
