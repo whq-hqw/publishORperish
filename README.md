@@ -2,7 +2,7 @@
 Simple python scripts to help you find information you need from Google Scholar
 
 ## Description
-One common problem is when doing research is verifying your proposal has been experimented before or not. Conventionally, the pipeline would be:
+One common problem during research is to verify your proposal has been experimented before or not. Conventionally, the pipeline would be:
 1. prepare a list of papers.
 2. find all the citing work from this list.
 3. see if there's any paper that cited all of them.
